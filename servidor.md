@@ -84,11 +84,7 @@ Debemos tener instalado apache2, y habilitarlo para que pueda funcionar como un 
 ```
 sudo a2enmod proxy
 sudo a2enmod proxy_http
-sudo a2enmod proxy_balancer
-sudo a2enmod lbmethod_byrequests
 ```
-
-*Aunque a decir verdad los dos últimos no estoy seguro de que se necesiten y cómo emplearlos (seguiré estudiando al respecto).*
 
 A continuación, edité el archivo de configuración del servidor por default (el que escucha el puerto 80), en mi caso está en `/etc/apache2/sites-enabled/default.conf`
 
