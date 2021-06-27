@@ -204,3 +204,4 @@ y el template hello.html es:
 </html>
 ```
 
+en el href tenia anteriormente {% url 'home'} y no me funcionaba correctamente
