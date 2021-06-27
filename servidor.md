@@ -118,7 +118,7 @@ Las líneas `Redirect` las he incluido porque si el usuario consulta la pagina `
 
 Aquí algunas cosas que no deben olvidarse respecto al proyecto django.
 
-##### Configurar la ruta de los archivos estáticos.
+#### Configurar la ruta de los archivos estáticos.
 
 En `settings.py` del proyecto no olvidar:
 
@@ -133,7 +133,7 @@ Además no olvides ejecutar el comando `python manage.py collectstatic`
 
 *nota: no estoy seguro si usar el `os.path.join` sea lo mas aconsejable, investigaré un poco más*
 
-##### Servidores permitidos
+#### Servidores permitidos
 
 En `settings.py` del proyecto no olvidar:
 
@@ -141,7 +141,7 @@ En `settings.py` del proyecto no olvidar:
 
 En muchos lados nos dicen que es necesario autorizar a que el proyecto acepte peticiones de la ip `127.0.0.1`. Aunque probé no colocarlo y funcionó sin problemas.
 
-##### urls.py
+#### urls.py
 
 Configure el archivo urls.py del proyecto (el que está en el directorio foo1 o foo2) para que a la página principal se accediera directamente (por ejemplo consultando al servidor como `http:\\127.0.0.1:7000`)
 
@@ -167,7 +167,7 @@ urlpatterns = [
 
 en este ejemplo `views.home_view` es la vista raíz
 
-##### las urls
+#### las urls
 
 En los templates, las urls que emplee fueron colocadas directamente directamente, por ejemplo el home.html es:
 
